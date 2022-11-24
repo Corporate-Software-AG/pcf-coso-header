@@ -33,8 +33,10 @@ export class cosoheader implements ComponentFramework.ReactControl<IInputs, IOut
      * @returns ReactElement root react element for the control
      */
     public updateView(context: ComponentFramework.Context<IInputs>): React.ReactElement {
-        const props: IHelloWorldProps = { name: 'Hello, World!' };
+        let content = context.parameters.title.raw ? context.parameters.title.raw : 'Hello, World!'
+        const props: IHelloWorldProps = { name: content };
         console.log(context)
+        
         return React.createElement(
             HelloWorld, props
         );

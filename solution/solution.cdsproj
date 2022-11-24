@@ -9,9 +9,9 @@
 
   <PropertyGroup>
     <ProjectGuid>bdec11d4-d724-4425-99c1-42062de17ad0</ProjectGuid>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <!--Remove TargetFramework when this is available in 16.1-->
-    <TargetFramework>net462</TargetFramework>
+    <TargetFramework>ndp48</TargetFramework>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <SolutionRootPath>src</SolutionRootPath>
   </PropertyGroup>
